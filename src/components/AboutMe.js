@@ -13,17 +13,9 @@ export const AboutMe = () => {
         </div>
         <div className="col-md-8">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsam
-            ad fuga, cumque qui fugit inventore vel deleniti minus tempore
-            officiis eius blanditiis iusto perferendis officia odit atque
-            asperiores soluta.
+          Dedicated Work Study Student accustomed to performing effectively in both collaborative and autonomous capacities. Strong knowledge of HTML, CSS and JS and C-sharp. Eager to expand horizons and make positive impact by taking on hands-on, dynamic position in IT industries.
           </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsam
-            ad fuga, cumque qui fugit inventore vel deleniti minus tempore
-            officiis eius blanditiis iusto perferendis officia odit atque
-            asperiores soluta.
-          </p>
+         
         </div>
       </div>
     </section>

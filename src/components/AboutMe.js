@@ -1,5 +1,5 @@
 import React from "react";
-import shital from "../assets/shital.jpg";
+import shital from "../assets/shital.png";
 
 export const AboutMe = () => {
   return (
@@ -13,7 +13,7 @@ export const AboutMe = () => {
         </div>
         <div className="col-md-8">
           <p>
-          Dedicated Work Study Student accustomed to performing effectively in both collaborative and autonomous capacities. Strong knowledge of HTML, CSS and JS and C-sharp. Eager to expand horizons and make positive impact by taking on hands-on, dynamic position in IT industries.
+          Dedicated person accustomed to performing effectively in both collaborative and autonomous capacities. Strong knowledge of HTML, CSS, JavaScript, React JS and C-sharp. Eager to expand horizons and make positive impact by taking on hands-on, dynamic position in IT industries.
           </p>
          
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import shital from "../assets/shital.jpg";
+import shital from "../assets/shital.png";
 export const Hero = () => {
   return (
     <section className="hero">

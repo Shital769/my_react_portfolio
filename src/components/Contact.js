@@ -11,10 +11,10 @@ export const Contact = () => {
       <div className="row mb-5">
         <div className="col fa-3x d-flex justify-content-between px-5">
           {/* <!-- <a href="tel:041234567"><i className="fa-solid fa-mobile"></i></a> --> */}
-          <a href="mailto:your@email.com">
+          <a href="mailto:your@email.com" target="_blank" >
             <i className="fa-solid fa-envelope"></i>
           </a>
-          <a href="https://www.indexlinkedin.com/in/prem-acharya/" target="_blank">
+          <a href="https://www.linkedin.com/in/shital-rayamajhi/ " target="_blank">
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="">

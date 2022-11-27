@@ -4,32 +4,20 @@ import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
 import { Project } from "./components/Project";
 import { Skills } from "./components/Skills";
-import { Layout } from "./components/layout";
 import { TopNav } from "./components/TopNav";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Layout>
-      <div className="wrapper">
-        {/* <!-- navbar --> */}
-        <TopNav />
-
-        {/* <!-- hero section --> */}
-        <Hero />
-
-        {/* <!-- skills --> */}
-        <Skills />
-
-        {/* <!-- projects --> */}
-        <Project />
-
-        {/* <!-- about me --> */}
-        <AboutMe />
-
-        {/* <!-- contact me --> */}
-        <Contact />
-      </div>
-    </Layout>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

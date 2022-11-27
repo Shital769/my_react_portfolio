@@ -28,6 +28,10 @@ export const Skills = () => {
               <div>
                 <i className="fa-brands fa-react"></i>React
               </div>
+              <div>
+                <i className="fa-brands fa-node"></i>React
+              </div>
+             
             </div>
           </div>
         </div>

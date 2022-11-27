@@ -1,9 +1,14 @@
 .topNav {
-  background: yellowgreen;
+  background: rgb(238, 172, 249);
 }
 .hero {
-  background: linear-gradient(90deg, #e7db76 0.25%, #5dcb36 100%);
   min-height: 60vh;
+  background: linear-gradient(
+    178.67deg,
+    #7a87fb 1.11%,
+    rgba(15, 39, 254, 0.54) 35.44%,
+    rgba(228, 26, 208, 0.34) 98.87%
+  );
 }
 
 .hero img {
@@ -18,10 +23,11 @@
   margin-top: 4rem;
   letter-spacing: 0.3rem;
   margin-bottom: 4rem;
+  min-height:35vh;
 }
 
 .title span {
-  border-bottom: 5px solid yellowgreen;
+  border-bottom: 5px solid rgb(94, 71, 243);
   padding: 0.5rem 1rem;
 }
 
@@ -62,11 +68,16 @@ i.fa-figma {
 
 /* Project section */
 .projects {
-  background: rgba(231, 213, 118, 0.41);
+  background: linear-gradient(
+    178.67deg,
+    #7a87fb 1.11%,
+    rgba(15, 39, 254, 0.54) 35.44%,
+    rgba(228, 26, 208, 0.34) 98.87%
+  );
 }
 
 .contact {
-  background: rgba(153, 205, 50, 0.548);
+  background: rgba(187, 84, 228, 0.45);
   margin-top: 13rem;
 }
 
@@ -78,5 +89,5 @@ i.fa-figma {
 }
 
 .main-layout {
-  min-height: 55vh;
+  min-height: 70vh;
 }

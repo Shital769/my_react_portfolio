@@ -75,7 +75,7 @@ export const Project = () => {
                 </a>
               </div>
               <p className="mt-3 fw-bold">
-                Tech Used: HTML, CSS, JavaScript, React Js
+                Tech Used: HTML, CSS, JavaScript, React 
               </p>
               <p>Hi guys, I have developed this Vidly Application.</p>
             </div>

@@ -1,8 +1,8 @@
 import React from "react";
-import prank_calculator from "../assets/prank_calculator.jpg";
-import netflix from "../assets/netflix.jpg";
-import movie_api from "../assets/movie_api.jpg";
-import vidly_app from "../assets/vidly.jpg";
+import e_commerce_cms from "../assets/e_commerce_cms.png";
+import expenses_tracker from "../assets/expenses_tracker.png";
+import library_management from "../assets/library_management.png";
+import vidly from "../assets/vidly.jpg";
 import { Layout } from "./layout";
 
 export const Project = () => {
@@ -15,10 +15,10 @@ export const Project = () => {
         <div className="container">
           <div className="row">
             <div className="col-md mb-3">
-              <img src={prank_calculator} alt="portfolio project" width="100%" />
+              <img src={e_commerce_cms} alt="portfolio project" width="100%" />
             </div>
             <div className="col-md">
-              <h2>Prank Calculator</h2>
+              <h2>E-commerce CMS</h2>
               <div>
                 <a href="#">
                   <i className="fa-brands fa-square-github"></i>
@@ -28,21 +28,26 @@ export const Project = () => {
                 </a>
               </div>
               <p className="mt-3 fw-bold">
-                Tech Used: HTML, CSS, JavaScript, React
+                Tech Used: HTML, CSS, JavaScript, React, React-Redux, NodeJs,
+                MongoDB
               </p>
               <p>
-                Hi guys, i have developed this prank calculator which is designed
-                for pranks.It puts out intentionally wrong results with sixty
-                percent of probability.
+                Hi guys, i have developed this full stack e-commerce cms where
+                user can register and login to their account and experinece
+                multiple features created to this website.
               </p>
             </div>
           </div>
           <div className="row py-5">
             <div className="col-md order-md-2 mb-3">
-              <img src={netflix} alt="portfolio project" width="100%" />
+              <img
+                src={expenses_tracker}
+                alt="portfolio project"
+                width="100%"
+              />
             </div>
             <div className="col-md">
-              <h2>Netflix Clone</h2>
+              <h2>Expenses Tracker</h2>
               <div>
                 <a href="#">
                   <i className="fa-brands fa-square-github"></i>
@@ -53,39 +58,23 @@ export const Project = () => {
               </div>
               <p className="mt-3 fw-bold">Tech Used: HTML & CSS</p>
               <p>
-                Hi guys, I have developed this netflix clone using HTML and CSS
-                only. Netflix is used to watch movies and TV series online or
-                streamed through out smart TV, game console, PC, Mac, mobile,
-                tablet and more.
+                Hi guys, I have developed this full stack transaction record
+                tracker using HTML, CSS, JavaScript, React. Using this tracker
+                user will be able to categorize expenses and income to their
+                account.
               </p>
             </div>
           </div>
           <div className="row py-5">
             <div className="col-md order-md-2 mb-3">
-              <img src={vidly_app} alt="portfolio project" width="100%" />
+              <img
+                src={library_management}
+                alt="portfolio project"
+                width="100%"
+              />
             </div>
             <div className="col-md">
-              <h2>Vidly App</h2>
-              <div>
-                <a href="#">
-                  <i className="fa-brands fa-square-github"></i>
-                </a>
-                <a href="">
-                  <i className="fa-brands fa-chrome"></i>
-                </a>
-              </div>
-              <p className="mt-3 fw-bold">
-                Tech Used: HTML, CSS, JavaScript, React 
-              </p>
-              <p>Hi guys, I have developed this Vidly Application.</p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md">
-              <img src={movie_api} alt="portfolio project" width="100%" />
-            </div>
-            <div className="col-md">
-              <h2>Movie List Api</h2>
+              <h2>Library Management</h2>
               <div>
                 <a href="#">
                   <i className="fa-brands fa-square-github"></i>
@@ -98,10 +87,33 @@ export const Project = () => {
                 Tech Used: HTML, CSS, JavaScript, React
               </p>
               <p>
-                Hi guys, I have developed this Movie List API where you can search
-                movies and move them either in happy or lazy list. Before you
-                search, you will see randomly generated movies on the screen.
-                Deleting the movies function if you don't like is also added.
+                Hi guys, I have developed this Library Management System where
+                student can login to their account and borrow the books as well
+                as create a list of their favourite books.
+              </p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md">
+              <img src={vidly} alt="portfolio project" width="100%" />
+            </div>
+            <div className="col-md">
+              <h2>Vidly </h2>
+              <div>
+                <a href="#">
+                  <i className="fa-brands fa-square-github"></i>
+                </a>
+                <a href="">
+                  <i className="fa-brands fa-chrome"></i>
+                </a>
+              </div>
+              <p className="mt-3 fw-bold">
+                Tech Used: HTML, CSS, JavaScript, React
+              </p>
+              <p>
+                Hi guys, I have developed this Vidly Movie App. User are abke to
+                search movies based on title, genre and they can add new movie
+                to the list too.
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { Layout } from "./layout";
 export const Skills = () => {
   return (
     <Layout>
-      <section id="skills" className="container py-4">
+      <section id="skills" className="container py-4 ">
         <div className="row">
           <div className="col">
             {/* <!-- title --> */}
@@ -12,7 +12,7 @@ export const Skills = () => {
               <span>Skills</span>
             </div>
             {/* <!-- icons --> */}
-            <div className="icons">
+            <div className="icons ">
               <div>
                 <i className="fa-brands fa-html5 text-danger"></i> HTML
               </div>

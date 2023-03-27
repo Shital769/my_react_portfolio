@@ -5,10 +5,10 @@ import { Layout } from "./layout";
 import resume from "../assets/resume.pdf";
 export const Hero = () => {
   return (
-    <Layout>
-      <section className="hero py-5 mt-2">
-        <div className="container">
-          <div className="row py-5">
+    <Layout >
+      <section className="hero py-5  ">
+        <div className="container  "   >
+          <div className="row py-5   ">
             <div className="col-md-5 text-center order-md-2">
               <img src={shital} alt="my image" width="90%" />
             </div>
@@ -17,7 +17,7 @@ export const Hero = () => {
                 Hello I'm <span className="fw-bold">Shital Rayamajhi</span>
               </span>
               <div className="mt-2 mb-5 fs-3 fw-bold ">
-                Front-end Developer | Software Engineer
+                Full Stack Software Developer | Software Engineer
               </div>
               <div>
                 <span>
@@ -40,13 +40,13 @@ export const Hero = () => {
                       ]}
                     />
                   </h1>
-                  <span className="fs-8">
+                  <span className="fs-8 ">
                     Knack of building applications with frontend and backend
                     operations.{""}
                   </span>
                 </span>
               </div>
-              <p>
+              <p className="mt-2" >
                 I love designing and developing websites as well as keen in
                 solving problems and building solutions.
               </p>
@@ -59,6 +59,6 @@ export const Hero = () => {
           </div>
         </div>
       </section>
-    </Layout>
+    </Layout >
   );
 };

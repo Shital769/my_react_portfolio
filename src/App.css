@@ -63,7 +63,7 @@ i.fa-figma {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 /* Project section */
@@ -90,4 +90,37 @@ i.fa-figma {
 
 .main-layout {
   min-height: 70vh;
+}
+
+
+/* contact */
+.contact {
+  margin-top: 2rem;
+}
+
+.contact h2 {
+  text-align: center;
+  /* margin-bottom: var(--bottom-margin-2); */
+  margin-bottom: 10px;
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  /* box-shadow: 0 3px 10px 3px; */
+  /* box-shadow: 0 3px 10px var(--secondary-shadow); */
+  box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3);
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
 }

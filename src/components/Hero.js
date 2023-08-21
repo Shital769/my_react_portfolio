@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import shital from "../assets/shital.png";
 import { Layout } from "./layout";
-import resume from "../assets/resume.pdf";
+import Shital_Rayamajhi_Resume from "../assets/Shital_Rayamajhi_Resume.pdf"
 export const Hero = () => {
   return (
     <Layout >
@@ -50,7 +50,7 @@ export const Hero = () => {
                 I love designing and developing websites as well as keen in
                 solving problems and building solutions.
               </p>
-              <a href={resume} download>
+              <a href={ Shital_Rayamajhi_Resume} download>
                 <button className="btn btn-danger">
                   Download Resume <i className="fa-solid fa-download"></i>
                 </button>

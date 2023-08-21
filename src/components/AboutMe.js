@@ -5,22 +5,31 @@ import { Layout } from "./layout";
 export const AboutMe = () => {
   return (
     <Layout>
-      <section id="about" className="container contact rounded p-3">
-        <div className="title">
-          <span>About Me</span>
-        </div>
-        <div className="row">
-          <div className="col-md-4 mb-3">
-            <img src={shital} alt="some img" width="100%" />
-          </div>
-          <div className="col-md-8">
-            <p>
-            Dedicated person accustomed to performing effectively in both collaborative and autonomous capacities. Strong knowledge of HTML, CSS, JavaScript, React JS, Node, Express, MongoDB and C-sharp. Eager to expand horizons and make positive impact by taking on hands-on, dynamic position in IT industries.
-            </p>
-      
-          </div>
-        </div>
-      </section>
+    <div className="more-about shadow-lg p-3 mt-5  bg-white rounded ">
+        <h2 className="mb-3">More About Me</h2>
+        <p>
+          Highly motivated Full stack developer completed
+          Bachelor in Information Technology major in Web and Mobile development. To advance my
+          full-stack development skills, I have joined an intensive coding
+          Bootcamp to gain hands-on practical skills in JavaScript, ReactJS,
+          NodeJS, MongoDB and more.
+        </p>
+        <p>
+          With the skills I have gained, I can create web apps and websites from
+          scratch to deployment following SDLC principles. Proficient in several
+          programming languages, including HTML, CSS, JavaScript, Node, Java,
+          Sql, and C#. Adept at working with a variety of frameworks, including
+          React and Node.js, and database management systems, like MySQL and
+          MongoDB.
+        </p>
+        <p>
+          Able to work well in a team atmosphere and possess excellent
+          communication and problem-solving abilities. Looking for a challenging
+          opportunities as a full-stack developer where I can use my skills,
+          knowledge of technology and enthusiasm to create new solutions and
+          support the accomplishments of a vibrant team.
+        </p>
+      </div>
     </Layout>
   );
 };

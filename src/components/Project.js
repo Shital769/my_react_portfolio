@@ -2,119 +2,291 @@ import React from "react";
 import e_commerce_cms from "../assets/e_commerce_cms.png";
 import expenses_tracker from "../assets/expenses_tracker.png";
 import library_management from "../assets/library_management.png";
+import movie_api from "../assets/movie_api.jpg";
 import vidly from "../assets/vidly.jpg";
+import prank_calculator from "../assets/prank_calculator.jpg";
 import { Layout } from "./layout";
 
 export const Project = () => {
   return (
     <Layout>
-      <div id="projects" className="projects py-3">
-        <div className="title">
-          <span>Projects</span>
+      <div className="projects container text-center">
+        <h2 className="project-title mb-5 slct">Some of My Recent Projects</h2>
+        <div className="projects-container row ">
+          <div className="project-container project-card  col ">
+            <div className="project">
+              <div className="project_wrapper">
+                <img
+                  src={prank_calculator}
+                  alt="e-com"
+                  className="project-pic  "
+                />
+                <div className="project_wrapper--bg"></div>
+                <div className="project_description">
+                  <h3 className="project_description_title">
+                    E-Commerce Clone
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    Html, Css, Javascript ,NextJs
+                  </h4>
+                  <p className="project__description--para">
+                    A clone of the most recognized search engine with tailwind
+                    CSS
+                  </p>
+                  <div className="project_description_links">
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://github.com/Shital769"
+                target="_blank"
+                className="project-link  effectForLink"
+              >
+                Check it Out!
+              </a>
+            </div>
+          </div>
+          <div className="project-container project-card  col ">
+            <div className="project">
+              <div className="project_wrapper">
+                <img src={vidly} alt="e-com" className="project-pic  " />
+                <div className="project_wrapper--bg"></div>
+                <div className="project_description">
+                  <h3 className="project_description_title">
+                    E-Commerce Clone
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    Html, Css, Javascript ,NextJs
+                  </h4>
+                  <p className="project__description--para">
+                    A clone of the most recognized search engine with tailwind
+                    CSS
+                  </p>
+                  <div className="project_description_links">
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                target="_blank"
+                className="project-link  effectForLink"
+              >
+                Check it Out!
+              </a>
+            </div>
+          </div>
+          <div className="project-container project-card  col ">
+            <div className="project">
+              <div className="project_wrapper">
+                <img
+                  src={library_management}
+                  alt="e-com"
+                  className="project-pic  "
+                />
+                <div className="project_wrapper--bg"></div>
+                <div className="project_description">
+                  <h3 className="project_description_title">
+                    E-Commerce Clone
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    Html, Css, Javascript ,NextJs
+                  </h4>
+                  <p className="project__description--para">
+                    A clone of the most recognized search engine with tailwind
+                    CSS
+                  </p>
+                  <div className="project_description_links">
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                target="_blank"
+                className="project-link  effectForLink"
+              >
+                Check it Out!
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-md mb-3">
-              <img src={e_commerce_cms} alt="portfolio project" width="100%" />
-            </div>
-            <div className="col-md">
-              <h2>E-commerce CMS</h2>
-              <div>
-                <a href="#">
-                  <i className="fa-brands fa-square-github"></i>
-                </a>
-                <a href="">
-                  <i className="fa-brands fa-chrome"></i>
-                </a>
+        <div className="projects-container row ">
+          <div className="project-container project-card  col ">
+            <div className="project">
+              <div className="project_wrapper">
+                <img
+                  src={e_commerce_cms}
+                  alt="e-com"
+                  className="project-pic  "
+                />
+                <div className="project_wrapper--bg"></div>
+                <div className="project_description">
+                  <h3 className="project_description_title">
+                    E-Commerce Clone
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    Html, Css, Javascript ,NextJs
+                  </h4>
+                  <p className="project__description--para">
+                    A clone of the most recognized search engine with tailwind
+                    CSS
+                  </p>
+                  <div className="project_description_links">
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <p className="mt-3 fw-bold">
-                Tech Used: HTML, CSS, JavaScript, React, React-Redux, NodeJs,
-                MongoDB
-              </p>
-              <p>
-                Hi guys, i have developed this full stack e-commerce cms where
-                user can register and login to their account and experinece
-                multiple features created to this website.
-              </p>
+              <a
+                href="#"
+                target="_blank"
+                className="project-link  effectForLink"
+              >
+                Check it Out!
+              </a>
             </div>
           </div>
-          <div className="row py-5">
-            <div className="col-md order-md-2 mb-3">
-              <img
-                src={expenses_tracker}
-                alt="portfolio project"
-                width="100%"
-              />
-            </div>
-            <div className="col-md">
-              <h2>Expenses Tracker</h2>
-              <div>
-                <a href="#">
-                  <i className="fa-brands fa-square-github"></i>
-                </a>
-                <a href="">
-                  <i className="fa-brands fa-chrome"></i>
-                </a>
+          <div className="project-container project-card  col ">
+            <div className="project">
+              <div className="project_wrapper">
+                <img src={movie_api} alt="e-com" className="project-pic  " />
+                <div className="project_wrapper--bg"></div>
+                <div className="project_description">
+                  <h3 className="project_description_title">
+                    E-Commerce Clone
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    Html, Css, Javascript ,NextJs
+                  </h4>
+                  <p className="project__description--para">
+                    A clone of the most recognized search engine with tailwind
+                    CSS
+                  </p>
+                  <div className="project_description_links">
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <p className="mt-3 fw-bold">Tech Used: HTML & CSS</p>
-              <p>
-                Hi guys, I have developed this full stack transaction record
-                tracker using HTML, CSS, JavaScript, React. Using this tracker
-                user will be able to categorize expenses and income to their
-                account.
-              </p>
+              <a
+                href="#"
+                target="_blank"
+                className="project-link  effectForLink"
+              >
+                Check it Out!
+              </a>
             </div>
           </div>
-          <div className="row py-5">
-            <div className="col-md order-md-2 mb-3">
-              <img
-                src={library_management}
-                alt="portfolio project"
-                width="100%"
-              />
-            </div>
-            <div className="col-md">
-              <h2>Library Management</h2>
-              <div>
-                <a href="#">
-                  <i className="fa-brands fa-square-github"></i>
-                </a>
-                <a href="">
-                  <i className="fa-brands fa-chrome"></i>
-                </a>
+          <div className="project-container project-card  col ">
+            <div className="project">
+              <div className="project_wrapper">
+                <img
+                  src={expenses_tracker}
+                  alt="e-com"
+                  className="project-pic  "
+                />
+                <div className="project_wrapper--bg"></div>
+                <div className="project_description">
+                  <h3 className="project_description_title">
+                    E-Commerce Clone
+                  </h3>
+                  <h4 className="project__description--sub-title">
+                    Html, Css, Javascript ,NextJs
+                  </h4>
+                  <p className="project__description--para">
+                    A clone of the most recognized search engine with tailwind
+                    CSS
+                  </p>
+                  <div className="project_description_links">
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.shitalrayamajhi.com/"
+                      className="project_description_link"
+                      target="_blank"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <p className="mt-3 fw-bold">
-                Tech Used: HTML, CSS, JavaScript, React
-              </p>
-              <p>
-                Hi guys, I have developed this Library Management System where
-                student can login to their account and borrow the books as well
-                as create a list of their favourite books.
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md">
-              <img src={vidly} alt="portfolio project" width="100%" />
-            </div>
-            <div className="col-md">
-              <h2>Vidly </h2>
-              <div>
-                <a href="#">
-                  <i className="fa-brands fa-square-github"></i>
-                </a>
-                <a href="">
-                  <i className="fa-brands fa-chrome"></i>
-                </a>
-              </div>
-              <p className="mt-3 fw-bold">
-                Tech Used: HTML, CSS, JavaScript, React
-              </p>
-              <p>
-                Hi guys, I have developed this Vidly Movie App. User are abke to
-                search movies based on title, genre and they can add new movie
-                to the list too.
-              </p>
+              <a
+                href="#"
+                target="_blank"
+                className="project-link  effectForLink"
+              >
+                Check it Out!
+              </a>
             </div>
           </div>
         </div>

@@ -31,6 +31,7 @@
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
+  
   margin-top: 2.5rem;
 }
 
@@ -47,6 +48,7 @@
   width: 15rem;
   height: 11.25rem;
   display: inline;
+  align-items: center;
   /* justify-content: space-between; */
   /* flex-wrap: wrap; */
 }

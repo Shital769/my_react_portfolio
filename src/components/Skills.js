@@ -4,38 +4,64 @@ import { Layout } from "./layout";
 export const Skills = () => {
   return (
     <Layout>
-      <section id="skills" className="container py-4 ">
+      <section className="skills container py-2 " id="skill">
+        <h2 className="skill-header"> My Top Skills</h2>
+
+        <div className="skills-wrapper ">
+          <div className=" animate__animated animate__pulse icons ">
+            <div className="rounded-2 shitaaal">
+              <i className="fa-brands fa-html5 text-danger   "></i> HTML
+            </div>
+            <div className="rounded-2 shitaaal">
+              <i className="fa-brands fa-css3-alt text-primary "></i> CSS
+            </div>
+            <div className="rounded-2 shitaaal">
+              <i className="fa-brands fa-square-js text-warning "></i>{" "}
+              JavaScript
+            </div>
+            <div className="rounded-2 shitaaal">
+              <i className="fa-brands fa-figma"></i>Figma
+            </div>
+            <div className="rounded-2 shitaaal">
+              <i className="fa-brands fa-react"></i>React
+            </div>
+            <div className="rounded-2 shitaaal">
+              <i className="fa-brands fa-node"></i>React
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section id="skills" className="container py-4 ">
         <div className="row">
           <div className="col">
-            {/* <!-- title --> */}
-            <div className="title">
-              <span>Skills</span>
+            <div className="title ">
+              <span className="text-align-center">Skills</span>
             </div>
-            {/* <!-- icons --> */}
             <div className="icons ">
-              <div>
-                <i className="fa-brands fa-html5 text-danger"></i> HTML
+              <div className="align-items-center">
+                <i className="fa-brands fa-html5 text-danger "></i> HTML
               </div>
-              <div>
+              <div className="align-items-center">
                 <i className="fa-brands fa-css3-alt text-primary"></i> CSS
               </div>
-              <div>
+              <div className="align-items-center">
                 <i className="fa-brands fa-square-js text-warning"></i> JavaScript
               </div>
-              <div>
+              <div className="align-items-center">
                 <i className="fa-brands fa-figma"></i>Figma
               </div>
-              <div>
+              <div className="align-items-center">
                 <i className="fa-brands fa-react"></i>React
               </div>
-              <div>
+              <div className="align-items-center">
                 <i className="fa-brands fa-node"></i>React
               </div>
              
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

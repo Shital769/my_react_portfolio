@@ -12,7 +12,7 @@ export const Layout = ({ children }) => {
       <Footer />
 
       <a href="#navbar" id="goup">
-        <i className="fa-solid fa-circle-up"></i>
+        <i className="fa-solid fa-2x fa-circle-up"></i>
       </a>
     </>
   );

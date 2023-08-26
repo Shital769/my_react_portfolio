@@ -31,37 +31,6 @@ export const Skills = () => {
           </div>
         </div>
       </section>
-
-      {/* <section id="skills" className="container py-4 ">
-        <div className="row">
-          <div className="col">
-            <div className="title ">
-              <span className="text-align-center">Skills</span>
-            </div>
-            <div className="icons ">
-              <div className="align-items-center">
-                <i className="fa-brands fa-html5 text-danger "></i> HTML
-              </div>
-              <div className="align-items-center">
-                <i className="fa-brands fa-css3-alt text-primary"></i> CSS
-              </div>
-              <div className="align-items-center">
-                <i className="fa-brands fa-square-js text-warning"></i> JavaScript
-              </div>
-              <div className="align-items-center">
-                <i className="fa-brands fa-figma"></i>Figma
-              </div>
-              <div className="align-items-center">
-                <i className="fa-brands fa-react"></i>React
-              </div>
-              <div className="align-items-center">
-                <i className="fa-brands fa-node"></i>React
-              </div>
-             
-            </div>
-          </div>
-        </div>
-      </section> */}
     </Layout>
   );
 };

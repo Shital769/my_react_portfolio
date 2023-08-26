@@ -4,7 +4,8 @@ import expenses_tracker from "../assets/expenses_tracker.png";
 import library_management from "../assets/library_management.png";
 import movie_api from "../assets/movie_api.jpg";
 import vidly from "../assets/vidly.jpg";
-import prank_calculator from "../assets/prank_calculator.jpg";
+import prank_calculator from "../assets/prank_calculator.png";
+import gamehub from "../assets/gamehub.png";
 import { Layout } from "./layout";
 
 export const Project = () => {
@@ -23,37 +24,44 @@ export const Project = () => {
                 />
                 <div className="project_wrapper--bg"></div>
                 <div className="project_description">
-                  <h3 className="project_description_title">
-                    E-Commerce Clone
-                  </h3>
+                  <h3 className="project_description_title">Calculator App</h3>
                   <h4 className="project__description--sub-title">
-                    Html, Css, Javascript ,NextJs
+                    Html, Css, Javascript
                   </h4>
                   <p className="project__description--para">
-                    A clone of the most recognized search engine with tailwind
-                    CSS
+                    A Prank Calculaotr that gives us a random answer while
+                    calculation as Prank 😄.
                   </p>
                   <div className="project_description_links">
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2 me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
-                    <a
+                    {/* <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
-                    </a>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
+                    </a> */}
                   </div>
                 </div>
               </div>
               <a
                 href="https://github.com/Shital769"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link  effectForLink"
               >
                 Check it Out!
@@ -63,33 +71,42 @@ export const Project = () => {
           <div className="project-container project-card  col ">
             <div className="project">
               <div className="project_wrapper">
-                <img src={vidly} alt="e-com" className="project-pic  " />
+                <img src={gamehub} alt="e-com" className="project-pic  " />
                 <div className="project_wrapper--bg"></div>
                 <div className="project_description">
                   <h3 className="project_description_title">
-                    E-Commerce Clone
+                    Gaming Hub Clone
                   </h3>
                   <h4 className="project__description--sub-title">
-                    Html, Css, Javascript ,NextJs
+                    Html, Css, TypeScript
                   </h4>
-                  <p className="project__description--para">
-                    A clone of the most recognized search engine with tailwind
-                    CSS
+                  <p className="project__description--para mb-0">
+                    A video game discovery web app that helps you find new and
+                    interesting games to play and you can search for games by
+                    platform, genre, and more.
                   </p>
                   <div className="project_description_links">
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                   </div>
                 </div>
@@ -97,6 +114,7 @@ export const Project = () => {
               <a
                 href="#"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link  effectForLink"
               >
                 Check it Out!
@@ -114,29 +132,37 @@ export const Project = () => {
                 <div className="project_wrapper--bg"></div>
                 <div className="project_description">
                   <h3 className="project_description_title">
-                    E-Commerce Clone
+                    Library Management
                   </h3>
                   <h4 className="project__description--sub-title">
-                    Html, Css, Javascript ,NextJs
+                    Html, Css, Javascript, NodeJs
                   </h4>
                   <p className="project__description--para">
-                    A clone of the most recognized search engine with tailwind
-                    CSS
+                    A perfect Libarary Management System that allows student and
+                    teachers to arrange their books systematically.
                   </p>
                   <div className="project_description_links">
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                   </div>
                 </div>
@@ -144,6 +170,7 @@ export const Project = () => {
               <a
                 href="#"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link  effectForLink"
               >
                 Check it Out!
@@ -169,23 +196,31 @@ export const Project = () => {
                     Html, Css, Javascript ,NextJs
                   </h4>
                   <p className="project__description--para">
-                    A clone of the most recognized search engine with tailwind
-                    CSS
+                    A clone of the most recognized E-Commerce industry with
+                    react bootstrap.
                   </p>
                   <div className="project_description_links">
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                   </div>
                 </div>
@@ -193,6 +228,7 @@ export const Project = () => {
               <a
                 href="#"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link  effectForLink"
               >
                 Check it Out!
@@ -206,29 +242,37 @@ export const Project = () => {
                 <div className="project_wrapper--bg"></div>
                 <div className="project_description">
                   <h3 className="project_description_title">
-                    E-Commerce Clone
+                    Movie List Api Clone
                   </h3>
                   <h4 className="project__description--sub-title">
-                    Html, Css, Javascript ,NextJs
+                    Html, Css, Javascript, NodeJs
                   </h4>
                   <p className="project__description--para">
-                    A clone of the most recognized search engine with tailwind
-                    CSS
+                    A clone of the Movie Lists Api, which allows you to add
+                    mobies in your happy, sad and lazy moods lists.
                   </p>
                   <div className="project_description_links">
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                   </div>
                 </div>
@@ -236,6 +280,7 @@ export const Project = () => {
               <a
                 href="#"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link  effectForLink"
               >
                 Check it Out!
@@ -253,29 +298,36 @@ export const Project = () => {
                 <div className="project_wrapper--bg"></div>
                 <div className="project_description">
                   <h3 className="project_description_title">
-                    E-Commerce Clone
+                    Expense Tracker App
                   </h3>
                   <h4 className="project__description--sub-title">
-                    Html, Css, Javascript ,NextJs
+                    Html, Css, Javascript
                   </h4>
                   <p className="project__description--para">
-                    A clone of the most recognized search engine with tailwind
-                    CSS
+                    An application that allows you to track your daily expenses.
                   </p>
                   <div className="project_description_links">
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                     <a
                       href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link"
+                      className="project_description_link me-2"
                       target="_blank"
+                      rel="noreferrer"
                     >
-                      <i className="fab fa-github"></i>
+                      <i
+                        className="fab fa-github"
+                        style={{ color: "white" }}
+                      ></i>
                     </a>
                   </div>
                 </div>
@@ -283,6 +335,7 @@ export const Project = () => {
               <a
                 href="#"
                 target="_blank"
+                rel="noreferrer"
                 className="project-link  effectForLink"
               >
                 Check it Out!

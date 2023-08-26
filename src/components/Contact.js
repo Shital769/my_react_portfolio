@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Layout } from "./layout";
 const Contact = () => {
+  const [text, setText] = useState();
+
+  const handleOnTextChange = (e) => {
+    setText(e.target.value);
+  };
   return (
     <Layout>
       <div className="contact">
@@ -40,14 +45,14 @@ const Contact = () => {
                 </label>
                 <textarea
                   className="form-control"
+                  value={text}
+                  onChange={handleOnTextChange}
                   name="message"
                   id="FormControlTeaxtArea1"
                   placeholder="Enter Your Message"
                   rows="10"
                   required
-                >
-                  {" "}
-                </textarea>
+                ></textarea>
               </div>
 
               <div className="d-grid gap-2 col-6 mx-auto">

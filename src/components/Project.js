@@ -3,7 +3,6 @@ import e_commerce_cms from "../assets/e_commerce_cms.png";
 import expenses_tracker from "../assets/expenses_tracker.png";
 import library_management from "../assets/library_management.png";
 import movie_api from "../assets/movie_api.jpg";
-import vidly from "../assets/vidly.jpg";
 import prank_calculator from "../assets/prank_calculator.png";
 import gamehub from "../assets/gamehub.png";
 import { Layout } from "./layout";
@@ -29,8 +28,12 @@ export const Project = () => {
                     Html, Css, Javascript
                   </h4>
                   <p className="project__description--para">
-                    A Prank Calculaotr that gives us a random answer while
-                    calculation as Prank 😄.
+                    This Simple Prank Calculator injects
+                    humor into math by delivering random results that defy the
+                    laws of mathematics. Expect the unexpected, from calculating
+                    the meaning of life to summoning mathematical unicorns. Get
+                    ready for a good laugh as you break the norms of traditional
+                    calculations with a smile! 😄
                   </p>
                   <div className="project_description_links">
                     <a
@@ -44,22 +47,11 @@ export const Project = () => {
                         style={{ color: "white" }}
                       ></i>
                     </a>
-                    {/* <a
-                      href="https://www.shitalrayamajhi.com/"
-                      className="project_description_link me-2"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i
-                        className="fab fa-github"
-                        style={{ color: "white" }}
-                      ></i>
-                    </a> */}
                   </div>
                 </div>
               </div>
               <a
-                href="https://github.com/Shital769"
+                href="https://prank-calculator-jdl5zi57l-shital769.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link  effectForLink"
@@ -112,7 +104,7 @@ export const Project = () => {
                 </div>
               </div>
               <a
-                href="#"
+                href="https://gaming-hub-one.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link  effectForLink"

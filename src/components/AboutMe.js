@@ -1,5 +1,4 @@
 import React from "react";
-import shital from "../assets/shital.png";
 import { Layout } from "./layout";
 
 export const AboutMe = () => {

@@ -10,7 +10,7 @@ export const Hero = () => {
         <div className="container  ">
           <div className="row py-5   ">
             <div className="col-md-5 text-center order-md-2">
-              <img src={shital} alt="my image" width="90%" />
+              <img src={shital} alt="my-pic" width="90%" />
             </div>
             <div className="col-md-7 mt-5 pt-5">
               <span>

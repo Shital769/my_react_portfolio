@@ -28,12 +28,12 @@ export const Project = () => {
                     Html, Css, Javascript
                   </h4>
                   <p className="project__description--para">
-                    This Simple Prank Calculator injects
-                    humor into math by delivering random results that defy the
-                    laws of mathematics. Expect the unexpected, from calculating
-                    the meaning of life to summoning mathematical unicorns. Get
-                    ready for a good laugh as you break the norms of traditional
-                    calculations with a smile! 😄
+                    This Simple Prank Calculator injects humor into math by
+                    delivering random results that defy the laws of mathematics.
+                    Expect the unexpected, from calculating the meaning of life
+                    to summoning mathematical unicorns. Get ready for a good
+                    laugh as you break the norms of traditional calculations
+                    with a smile! 😄
                   </p>
                   <div className="project_description_links">
                     <a
@@ -270,7 +270,7 @@ export const Project = () => {
                 </div>
               </div>
               <a
-                href="#"
+                href="https://react-movie-list-two.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link  effectForLink"
@@ -325,7 +325,7 @@ export const Project = () => {
                 </div>
               </div>
               <a
-                href="#"
+                href="https://github.com/Shital769/full-stack-client-transaction"
                 target="_blank"
                 rel="noreferrer"
                 className="project-link  effectForLink"
